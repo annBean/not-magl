@@ -5,5 +5,81 @@
     text-decoration: none;
     color: white;
     text-transform: uppercase;
-
 }
+body,ul,li {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto',Arial, sans-serif;
+}
+
+ul,Li {
+    list-style: none;
+}
+
+.container {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.main-header {
+    background-color: #EEE;
+    padding-top: 50px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.header-loga {
+    width: 160px;
+    height: 65px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+}
+    
+.main-nav__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 440px;
+}
+
+.nav-item a,.basket  a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: black;
+}
+
+.basket {
+    display: flex;
+    align-items: center;
+}
+
+.header-slider {
+    display: flex;
+}
+    
+.slider-description {
+    width: 415px;
+    padding-top: 72px;
+}
+.slider-description h3 {
+    font-size: 55px;
+    line-height: 55px;
+    padding-top: 0;
+    margin-top: 0;
+}
+.slider-description p {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.slider-img {}
